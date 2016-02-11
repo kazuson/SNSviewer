@@ -8,7 +8,7 @@
         <!--Browser-->
         <scene sceneID="KuG-9c-te6">
             <objects>
-                <viewController id="PBr-Rc-S1d" sceneMemberID="viewController">
+                <viewController id="PBr-Rc-S1d" customClass="BrowserViewController" customModule="SNSviwer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5Bz-Fv-K7S"/>
                         <viewControllerLayoutGuide type="bottom" id="br4-H8-nKh"/>
@@ -16,8 +16,61 @@
                     <view key="view" contentMode="scaleToFill" id="Ns3-bz-mJl">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4bN-l7-PT7">
+                                <rect key="frame" x="0.0" y="20" width="600" height="64"/>
+                                <subviews>
+                                    <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="JQe-iR-jx1">
+                                        <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="8KP-5S-Q6n"/>
+                                        </constraints>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </searchBar>
+                                </subviews>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="JQe-iR-jx1" secondAttribute="bottom" id="0ux-ao-s2R"/>
+                                    <constraint firstItem="JQe-iR-jx1" firstAttribute="leading" secondItem="4bN-l7-PT7" secondAttribute="leading" id="6Bq-Km-ED1"/>
+                                    <constraint firstAttribute="height" constant="64" id="Kur-5V-vqH"/>
+                                    <constraint firstAttribute="trailing" secondItem="JQe-iR-jx1" secondAttribute="trailing" id="uIy-bw-FAe"/>
+                                </constraints>
+                            </view>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6ok-ro-qRP">
+                                <rect key="frame" x="0.0" y="511" width="600" height="40"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="PLk-5j-t1I"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="Item" id="uPU-aa-Z96"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Q84-9R-fRu"/>
+                                    <barButtonItem title="Item" id="YGI-dA-f9T"/>
+                                    <barButtonItem title="Item" id="Fus-Mo-wlh"/>
+                                </items>
+                            </toolbar>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yyj-sW-JwJ">
+                                <rect key="frame" x="0.0" y="84" width="600" height="427"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="4bN-l7-PT7" secondAttribute="trailing" id="ChL-r1-VyQ"/>
+                            <constraint firstItem="4bN-l7-PT7" firstAttribute="top" secondItem="5Bz-Fv-K7S" secondAttribute="bottom" id="IvK-n1-cCL"/>
+                            <constraint firstItem="yyj-sW-JwJ" firstAttribute="leading" secondItem="Ns3-bz-mJl" secondAttribute="leading" id="OkP-hs-9MO"/>
+                            <constraint firstItem="6ok-ro-qRP" firstAttribute="top" secondItem="yyj-sW-JwJ" secondAttribute="bottom" id="Qve-mh-2DJ"/>
+                            <constraint firstItem="yyj-sW-JwJ" firstAttribute="top" secondItem="4bN-l7-PT7" secondAttribute="bottom" id="Rgr-U3-QWA"/>
+                            <constraint firstAttribute="trailing" secondItem="yyj-sW-JwJ" secondAttribute="trailing" id="Rj4-eq-HGI"/>
+                            <constraint firstAttribute="trailing" secondItem="6ok-ro-qRP" secondAttribute="trailing" id="ZCh-d6-sah"/>
+                            <constraint firstItem="br4-H8-nKh" firstAttribute="top" secondItem="6ok-ro-qRP" secondAttribute="bottom" id="aDd-1S-g9p"/>
+                            <constraint firstItem="6ok-ro-qRP" firstAttribute="leading" secondItem="Ns3-bz-mJl" secondAttribute="leading" id="wEX-iP-8q9"/>
+                            <constraint firstItem="4bN-l7-PT7" firstAttribute="leading" secondItem="Ns3-bz-mJl" secondAttribute="leading" id="zel-3d-Pjm"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Browser" image="second" id="pJE-8o-Uid"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>

@@ -8,7 +8,7 @@
         <!--Twitter-->
         <scene sceneID="bfL-mo-S08">
             <objects>
-                <viewController id="P5r-VN-mfj" sceneMemberID="viewController">
+                <viewController id="P5r-VN-mfj" customClass="TwitterViewController" customModule="SNSviwer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hZM-K9-Wxk"/>
                         <viewControllerLayoutGuide type="bottom" id="NIO-dn-j8A"/>

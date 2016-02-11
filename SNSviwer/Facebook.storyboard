@@ -8,7 +8,7 @@
         <!--Facebook-->
         <scene sceneID="4dj-jB-lHc">
             <objects>
-                <viewController id="Hom-gA-6GZ" sceneMemberID="viewController">
+                <viewController id="Hom-gA-6GZ" customClass="FacebookViewController" customModule="SNSviwer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Pvl-V5-K7n"/>
                         <viewControllerLayoutGuide type="bottom" id="ylS-9G-P6l"/>
