@@ -22,6 +22,7 @@
 		64276FC71C6CB31D00EF75FC /* InstagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64276FC61C6CB31D00EF75FC /* InstagramViewController.swift */; };
 		64276FC91C6CB33E00EF75FC /* FacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64276FC81C6CB33E00EF75FC /* FacebookViewController.swift */; };
 		64276FCB1C6CB37500EF75FC /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64276FCA1C6CB37500EF75FC /* TwitterViewController.swift */; };
+		64276FCE1C6CD0B200EF75FC /* button-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 64276FCD1C6CD0B200EF75FC /* button-back.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		64276FC61C6CB31D00EF75FC /* InstagramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramViewController.swift; sourceTree = "<group>"; };
 		64276FC81C6CB33E00EF75FC /* FacebookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookViewController.swift; sourceTree = "<group>"; };
 		64276FCA1C6CB37500EF75FC /* TwitterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
+		64276FCD1C6CD0B200EF75FC /* button-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-back.png"; path = "Resources/button-back.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		64276F881C6CA72E00EF75FC /* SNSviwer */ = {
 			isa = PBXGroup;
 			children = (
+				64276FCC1C6CD07E00EF75FC /* Resources */,
 				64276FC21C6CB28B00EF75FC /* ViewController */,
 				64276FB71C6CA8A900EF75FC /* Storyboard */,
 				64276F891C6CA72E00EF75FC /* AppDelegate.swift */,
@@ -163,6 +166,14 @@
 				64276F8B1C6CA72E00EF75FC /* ViewController.swift */,
 			);
 			name = ViewController;
+			sourceTree = "<group>";
+		};
+		64276FCC1C6CD07E00EF75FC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64276FCD1C6CD0B200EF75FC /* button-back.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +284,7 @@
 				64276FC01C6CA9FC00EF75FC /* Browser.storyboard in Resources */,
 				64276FBA1C6CA95000EF75FC /* Facebook.storyboard in Resources */,
 				64276F941C6CA72E00EF75FC /* LaunchScreen.storyboard in Resources */,
+				64276FCE1C6CD0B200EF75FC /* button-back.png in Resources */,
 				64276F911C6CA72E00EF75FC /* Assets.xcassets in Resources */,
 				64276FBC1C6CA97C00EF75FC /* Instagram.storyboard in Resources */,
 				64276F8F1C6CA72E00EF75FC /* Main.storyboard in Resources */,
@@ -530,6 +542,7 @@
 				64276FB01C6CA72E00EF75FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64276FB11C6CA72E00EF75FC /* Build configuration list for PBXNativeTarget "SNSviwerTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +551,7 @@
 				64276FB31C6CA72E00EF75FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64276FB41C6CA72E00EF75FC /* Build configuration list for PBXNativeTarget "SNSviwerUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +560,7 @@
 				64276FB61C6CA72E00EF75FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

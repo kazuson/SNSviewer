@@ -43,10 +43,13 @@ class BrowserViewController: UIViewController {
     }
     
     @IBAction func backButtonTapped(sender: UIBarButtonItem) {
+        webView.goBack()
     }
     @IBAction func reloadButtonTapped(sender: UIBarButtonItem) {
+        webView.reload()
     }
     @IBAction func stopButtonTapped(sender: UIBarButtonItem) {
+        webView.stopLoading()
     }
     
     
