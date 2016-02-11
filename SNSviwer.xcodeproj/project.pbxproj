@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64276F8A1C6CA72E00EF75FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64276F891C6CA72E00EF75FC /* AppDelegate.swift */; };
+		64276F8C1C6CA72E00EF75FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64276F8B1C6CA72E00EF75FC /* ViewController.swift */; };
+		64276F8F1C6CA72E00EF75FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64276F8D1C6CA72E00EF75FC /* Main.storyboard */; };
+		64276F911C6CA72E00EF75FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64276F901C6CA72E00EF75FC /* Assets.xcassets */; };
+		64276F941C6CA72E00EF75FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64276F921C6CA72E00EF75FC /* LaunchScreen.storyboard */; };
+		64276F9F1C6CA72E00EF75FC /* SNSviwerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64276F9E1C6CA72E00EF75FC /* SNSviwerTests.swift */; };
+		64276FAA1C6CA72E00EF75FC /* SNSviwerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64276FA91C6CA72E00EF75FC /* SNSviwerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64276F9B1C6CA72E00EF75FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64276F7E1C6CA72E00EF75FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64276F851C6CA72E00EF75FC;
+			remoteInfo = SNSviwer;
+		};
+		64276FA61C6CA72E00EF75FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64276F7E1C6CA72E00EF75FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64276F851C6CA72E00EF75FC;
+			remoteInfo = SNSviwer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64276F861C6CA72E00EF75FC /* SNSviwer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNSviwer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64276F891C6CA72E00EF75FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64276F8B1C6CA72E00EF75FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64276F8E1C6CA72E00EF75FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64276F901C6CA72E00EF75FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64276F931C6CA72E00EF75FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64276F951C6CA72E00EF75FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64276F9A1C6CA72E00EF75FC /* SNSviwerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNSviwerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64276F9E1C6CA72E00EF75FC /* SNSviwerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSviwerTests.swift; sourceTree = "<group>"; };
+		64276FA01C6CA72E00EF75FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64276FA51C6CA72E00EF75FC /* SNSviwerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNSviwerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64276FA91C6CA72E00EF75FC /* SNSviwerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSviwerUITests.swift; sourceTree = "<group>"; };
+		64276FAB1C6CA72E00EF75FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64276F831C6CA72E00EF75FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64276F971C6CA72E00EF75FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64276FA21C6CA72E00EF75FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64276F7D1C6CA72E00EF75FC = {
+			isa = PBXGroup;
+			children = (
+				64276F881C6CA72E00EF75FC /* SNSviwer */,
+				64276F9D1C6CA72E00EF75FC /* SNSviwerTests */,
+				64276FA81C6CA72E00EF75FC /* SNSviwerUITests */,
+				64276F871C6CA72E00EF75FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64276F871C6CA72E00EF75FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64276F861C6CA72E00EF75FC /* SNSviwer.app */,
+				64276F9A1C6CA72E00EF75FC /* SNSviwerTests.xctest */,
+				64276FA51C6CA72E00EF75FC /* SNSviwerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64276F881C6CA72E00EF75FC /* SNSviwer */ = {
+			isa = PBXGroup;
+			children = (
+				64276F891C6CA72E00EF75FC /* AppDelegate.swift */,
+				64276F8B1C6CA72E00EF75FC /* ViewController.swift */,
+				64276F8D1C6CA72E00EF75FC /* Main.storyboard */,
+				64276F901C6CA72E00EF75FC /* Assets.xcassets */,
+				64276F921C6CA72E00EF75FC /* LaunchScreen.storyboard */,
+				64276F951C6CA72E00EF75FC /* Info.plist */,
+			);
+			path = SNSviwer;
+			sourceTree = "<group>";
+		};
+		64276F9D1C6CA72E00EF75FC /* SNSviwerTests */ = {
+			isa = PBXGroup;
+			children = (
+				64276F9E1C6CA72E00EF75FC /* SNSviwerTests.swift */,
+				64276FA01C6CA72E00EF75FC /* Info.plist */,
+			);
+			path = SNSviwerTests;
+			sourceTree = "<group>";
+		};
+		64276FA81C6CA72E00EF75FC /* SNSviwerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64276FA91C6CA72E00EF75FC /* SNSviwerUITests.swift */,
+				64276FAB1C6CA72E00EF75FC /* Info.plist */,
+			);
+			path = SNSviwerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64276F851C6CA72E00EF75FC /* SNSviwer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64276FAE1C6CA72E00EF75FC /* Build configuration list for PBXNativeTarget "SNSviwer" */;
+			buildPhases = (
+				64276F821C6CA72E00EF75FC /* Sources */,
+				64276F831C6CA72E00EF75FC /* Frameworks */,
+				64276F841C6CA72E00EF75FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNSviwer;
+			productName = SNSviwer;
+			productReference = 64276F861C6CA72E00EF75FC /* SNSviwer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64276F991C6CA72E00EF75FC /* SNSviwerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64276FB11C6CA72E00EF75FC /* Build configuration list for PBXNativeTarget "SNSviwerTests" */;
+			buildPhases = (
+				64276F961C6CA72E00EF75FC /* Sources */,
+				64276F971C6CA72E00EF75FC /* Frameworks */,
+				64276F981C6CA72E00EF75FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64276F9C1C6CA72E00EF75FC /* PBXTargetDependency */,
+			);
+			name = SNSviwerTests;
+			productName = SNSviwerTests;
+			productReference = 64276F9A1C6CA72E00EF75FC /* SNSviwerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64276FA41C6CA72E00EF75FC /* SNSviwerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64276FB41C6CA72E00EF75FC /* Build configuration list for PBXNativeTarget "SNSviwerUITests" */;
+			buildPhases = (
+				64276FA11C6CA72E00EF75FC /* Sources */,
+				64276FA21C6CA72E00EF75FC /* Frameworks */,
+				64276FA31C6CA72E00EF75FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64276FA71C6CA72E00EF75FC /* PBXTargetDependency */,
+			);
+			name = SNSviwerUITests;
+			productName = SNSviwerUITests;
+			productReference = 64276FA51C6CA72E00EF75FC /* SNSviwerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64276F7E1C6CA72E00EF75FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = kazumakogami;
+				TargetAttributes = {
+					64276F851C6CA72E00EF75FC = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					64276F991C6CA72E00EF75FC = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 64276F851C6CA72E00EF75FC;
+					};
+					64276FA41C6CA72E00EF75FC = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 64276F851C6CA72E00EF75FC;
+					};
+				};
+			};
+			buildConfigurationList = 64276F811C6CA72E00EF75FC /* Build configuration list for PBXProject "SNSviwer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64276F7D1C6CA72E00EF75FC;
+			productRefGroup = 64276F871C6CA72E00EF75FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64276F851C6CA72E00EF75FC /* SNSviwer */,
+				64276F991C6CA72E00EF75FC /* SNSviwerTests */,
+				64276FA41C6CA72E00EF75FC /* SNSviwerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64276F841C6CA72E00EF75FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64276F941C6CA72E00EF75FC /* LaunchScreen.storyboard in Resources */,
+				64276F911C6CA72E00EF75FC /* Assets.xcassets in Resources */,
+				64276F8F1C6CA72E00EF75FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64276F981C6CA72E00EF75FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64276FA31C6CA72E00EF75FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64276F821C6CA72E00EF75FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64276F8C1C6CA72E00EF75FC /* ViewController.swift in Sources */,
+				64276F8A1C6CA72E00EF75FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64276F961C6CA72E00EF75FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64276F9F1C6CA72E00EF75FC /* SNSviwerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64276FA11C6CA72E00EF75FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64276FAA1C6CA72E00EF75FC /* SNSviwerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64276F9C1C6CA72E00EF75FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64276F851C6CA72E00EF75FC /* SNSviwer */;
+			targetProxy = 64276F9B1C6CA72E00EF75FC /* PBXContainerItemProxy */;
+		};
+		64276FA71C6CA72E00EF75FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64276F851C6CA72E00EF75FC /* SNSviwer */;
+			targetProxy = 64276FA61C6CA72E00EF75FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64276F8D1C6CA72E00EF75FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64276F8E1C6CA72E00EF75FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64276F921C6CA72E00EF75FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64276F931C6CA72E00EF75FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64276FAC1C6CA72E00EF75FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64276FAD1C6CA72E00EF75FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64276FAF1C6CA72E00EF75FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SNSviwer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazumakogami.SNSviwer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64276FB01C6CA72E00EF75FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SNSviwer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazumakogami.SNSviwer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64276FB21C6CA72E00EF75FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SNSviwerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazumakogami.SNSviwerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNSviwer.app/SNSviwer";
+			};
+			name = Debug;
+		};
+		64276FB31C6CA72E00EF75FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SNSviwerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazumakogami.SNSviwerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNSviwer.app/SNSviwer";
+			};
+			name = Release;
+		};
+		64276FB51C6CA72E00EF75FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SNSviwerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazumakogami.SNSviwerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SNSviwer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		64276FB61C6CA72E00EF75FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SNSviwerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazumakogami.SNSviwerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SNSviwer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64276F811C6CA72E00EF75FC /* Build configuration list for PBXProject "SNSviwer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64276FAC1C6CA72E00EF75FC /* Debug */,
+				64276FAD1C6CA72E00EF75FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64276FAE1C6CA72E00EF75FC /* Build configuration list for PBXNativeTarget "SNSviwer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64276FAF1C6CA72E00EF75FC /* Debug */,
+				64276FB01C6CA72E00EF75FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64276FB11C6CA72E00EF75FC /* Build configuration list for PBXNativeTarget "SNSviwerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64276FB21C6CA72E00EF75FC /* Debug */,
+				64276FB31C6CA72E00EF75FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64276FB41C6CA72E00EF75FC /* Build configuration list for PBXNativeTarget "SNSviwerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64276FB51C6CA72E00EF75FC /* Debug */,
+				64276FB61C6CA72E00EF75FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64276F7E1C6CA72E00EF75FC /* Project object */;
+}
