@@ -18,6 +18,10 @@
 		64276FBC1C6CA97C00EF75FC /* Instagram.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64276FBB1C6CA97C00EF75FC /* Instagram.storyboard */; };
 		64276FBE1C6CA9BA00EF75FC /* Twitter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64276FBD1C6CA9BA00EF75FC /* Twitter.storyboard */; };
 		64276FC01C6CA9FC00EF75FC /* Browser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64276FBF1C6CA9FC00EF75FC /* Browser.storyboard */; };
+		64276FC51C6CB2FE00EF75FC /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64276FC41C6CB2FE00EF75FC /* BrowserViewController.swift */; };
+		64276FC71C6CB31D00EF75FC /* InstagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64276FC61C6CB31D00EF75FC /* InstagramViewController.swift */; };
+		64276FC91C6CB33E00EF75FC /* FacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64276FC81C6CB33E00EF75FC /* FacebookViewController.swift */; };
+		64276FCB1C6CB37500EF75FC /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64276FCA1C6CB37500EF75FC /* TwitterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		64276FBB1C6CA97C00EF75FC /* Instagram.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Instagram.storyboard; sourceTree = "<group>"; };
 		64276FBD1C6CA9BA00EF75FC /* Twitter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Twitter.storyboard; sourceTree = "<group>"; };
 		64276FBF1C6CA9FC00EF75FC /* Browser.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Browser.storyboard; sourceTree = "<group>"; };
+		64276FC41C6CB2FE00EF75FC /* BrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
+		64276FC61C6CB31D00EF75FC /* InstagramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramViewController.swift; sourceTree = "<group>"; };
+		64276FC81C6CB33E00EF75FC /* FacebookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookViewController.swift; sourceTree = "<group>"; };
+		64276FCA1C6CB37500EF75FC /* TwitterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +113,9 @@
 		64276F881C6CA72E00EF75FC /* SNSviwer */ = {
 			isa = PBXGroup;
 			children = (
+				64276FC21C6CB28B00EF75FC /* ViewController */,
 				64276FB71C6CA8A900EF75FC /* Storyboard */,
 				64276F891C6CA72E00EF75FC /* AppDelegate.swift */,
-				64276F8B1C6CA72E00EF75FC /* ViewController.swift */,
 				64276F901C6CA72E00EF75FC /* Assets.xcassets */,
 				64276F951C6CA72E00EF75FC /* Info.plist */,
 			);
@@ -143,6 +151,18 @@
 				64276F921C6CA72E00EF75FC /* LaunchScreen.storyboard */,
 			);
 			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		64276FC21C6CB28B00EF75FC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				64276FC41C6CB2FE00EF75FC /* BrowserViewController.swift */,
+				64276FC61C6CB31D00EF75FC /* InstagramViewController.swift */,
+				64276FC81C6CB33E00EF75FC /* FacebookViewController.swift */,
+				64276FCA1C6CB37500EF75FC /* TwitterViewController.swift */,
+				64276F8B1C6CA72E00EF75FC /* ViewController.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64276FCB1C6CB37500EF75FC /* TwitterViewController.swift in Sources */,
 				64276F8C1C6CA72E00EF75FC /* ViewController.swift in Sources */,
+				64276FC71C6CB31D00EF75FC /* InstagramViewController.swift in Sources */,
+				64276FC91C6CB33E00EF75FC /* FacebookViewController.swift in Sources */,
+				64276FC51C6CB2FE00EF75FC /* BrowserViewController.swift in Sources */,
 				64276F8A1C6CA72E00EF75FC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

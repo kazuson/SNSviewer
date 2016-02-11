@@ -8,7 +8,7 @@
         <!--Instagram-->
         <scene sceneID="I8W-nI-gTA">
             <objects>
-                <viewController id="1tg-ks-9JD" sceneMemberID="viewController">
+                <viewController id="1tg-ks-9JD" customClass="InstagramViewController" customModule="SNSviwer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="giq-Gw-z5d"/>
                         <viewControllerLayoutGuide type="bottom" id="C1M-za-2BS"/>

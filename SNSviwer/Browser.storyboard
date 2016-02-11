@@ -8,7 +8,7 @@
         <!--Browser-->
         <scene sceneID="KuG-9c-te6">
             <objects>
-                <viewController id="PBr-Rc-S1d" sceneMemberID="viewController">
+                <viewController id="PBr-Rc-S1d" customClass="BrowserViewController" customModule="SNSviwer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5Bz-Fv-K7S"/>
                         <viewControllerLayoutGuide type="bottom" id="br4-H8-nKh"/>
