@@ -45,10 +45,22 @@
                                     <constraint firstAttribute="height" constant="40" id="PLk-5j-t1I"/>
                                 </constraints>
                                 <items>
-                                    <barButtonItem title="Item" id="uPU-aa-Z96"/>
+                                    <barButtonItem title="Item" id="uPU-aa-Z96">
+                                        <connections>
+                                            <action selector="backButtonTapped:" destination="PBr-Rc-S1d" id="qxZ-6R-IHw"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Q84-9R-fRu"/>
-                                    <barButtonItem title="Item" id="YGI-dA-f9T"/>
-                                    <barButtonItem title="Item" id="Fus-Mo-wlh"/>
+                                    <barButtonItem title="Item" id="YGI-dA-f9T">
+                                        <connections>
+                                            <action selector="reloadButtonTapped:" destination="PBr-Rc-S1d" id="itO-5s-R8O"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Item" id="Fus-Mo-wlh">
+                                        <connections>
+                                            <action selector="stopButtonTapped:" destination="PBr-Rc-S1d" id="6Jh-Ab-e2G"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yyj-sW-JwJ">
@@ -74,6 +86,13 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Browser" image="second" id="pJE-8o-Uid"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="backButton" destination="uPU-aa-Z96" id="ubP-Zg-idk"/>
+                        <outlet property="reload" destination="YGI-dA-f9T" id="37T-Ze-Qxe"/>
+                        <outlet property="searchBar" destination="JQe-iR-jx1" id="RyR-ap-fjM"/>
+                        <outlet property="stopButton" destination="Fus-Mo-wlh" id="1L4-nI-PiT"/>
+                        <outlet property="webView" destination="yyj-sW-JwJ" id="yu0-2N-aOe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WTI-gu-7FN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
