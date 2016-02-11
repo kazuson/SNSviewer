@@ -14,6 +14,10 @@
 		64276F941C6CA72E00EF75FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64276F921C6CA72E00EF75FC /* LaunchScreen.storyboard */; };
 		64276F9F1C6CA72E00EF75FC /* SNSviwerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64276F9E1C6CA72E00EF75FC /* SNSviwerTests.swift */; };
 		64276FAA1C6CA72E00EF75FC /* SNSviwerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64276FA91C6CA72E00EF75FC /* SNSviwerUITests.swift */; };
+		64276FBA1C6CA95000EF75FC /* Facebook.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64276FB91C6CA95000EF75FC /* Facebook.storyboard */; };
+		64276FBC1C6CA97C00EF75FC /* Instagram.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64276FBB1C6CA97C00EF75FC /* Instagram.storyboard */; };
+		64276FBE1C6CA9BA00EF75FC /* Twitter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64276FBD1C6CA9BA00EF75FC /* Twitter.storyboard */; };
+		64276FC01C6CA9FC00EF75FC /* Browser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64276FBF1C6CA9FC00EF75FC /* Browser.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		64276FA51C6CA72E00EF75FC /* SNSviwerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNSviwerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64276FA91C6CA72E00EF75FC /* SNSviwerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSviwerUITests.swift; sourceTree = "<group>"; };
 		64276FAB1C6CA72E00EF75FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64276FB91C6CA95000EF75FC /* Facebook.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Facebook.storyboard; sourceTree = "<group>"; };
+		64276FBB1C6CA97C00EF75FC /* Instagram.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Instagram.storyboard; sourceTree = "<group>"; };
+		64276FBD1C6CA9BA00EF75FC /* Twitter.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Twitter.storyboard; sourceTree = "<group>"; };
+		64276FBF1C6CA9FC00EF75FC /* Browser.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Browser.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +105,10 @@
 		64276F881C6CA72E00EF75FC /* SNSviwer */ = {
 			isa = PBXGroup;
 			children = (
+				64276FB71C6CA8A900EF75FC /* Storyboard */,
 				64276F891C6CA72E00EF75FC /* AppDelegate.swift */,
 				64276F8B1C6CA72E00EF75FC /* ViewController.swift */,
-				64276F8D1C6CA72E00EF75FC /* Main.storyboard */,
 				64276F901C6CA72E00EF75FC /* Assets.xcassets */,
-				64276F921C6CA72E00EF75FC /* LaunchScreen.storyboard */,
 				64276F951C6CA72E00EF75FC /* Info.plist */,
 			);
 			path = SNSviwer;
@@ -123,6 +130,19 @@
 				64276FAB1C6CA72E00EF75FC /* Info.plist */,
 			);
 			path = SNSviwerUITests;
+			sourceTree = "<group>";
+		};
+		64276FB71C6CA8A900EF75FC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				64276F8D1C6CA72E00EF75FC /* Main.storyboard */,
+				64276FBF1C6CA9FC00EF75FC /* Browser.storyboard */,
+				64276FBB1C6CA97C00EF75FC /* Instagram.storyboard */,
+				64276FB91C6CA95000EF75FC /* Facebook.storyboard */,
+				64276FBD1C6CA9BA00EF75FC /* Twitter.storyboard */,
+				64276F921C6CA72E00EF75FC /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +249,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64276FBE1C6CA9BA00EF75FC /* Twitter.storyboard in Resources */,
+				64276FC01C6CA9FC00EF75FC /* Browser.storyboard in Resources */,
+				64276FBA1C6CA95000EF75FC /* Facebook.storyboard in Resources */,
 				64276F941C6CA72E00EF75FC /* LaunchScreen.storyboard in Resources */,
 				64276F911C6CA72E00EF75FC /* Assets.xcassets in Resources */,
+				64276FBC1C6CA97C00EF75FC /* Instagram.storyboard in Resources */,
 				64276F8F1C6CA72E00EF75FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
