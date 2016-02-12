@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
-        <!--Facebook-->
+        <!--Tumbler-->
         <scene sceneID="4dj-jB-lHc">
             <objects>
                 <viewController id="Hom-gA-6GZ" customClass="FacebookViewController" customModule="SNSviwer" customModuleProvider="target" sceneMemberID="viewController">
@@ -60,7 +60,7 @@
                             <constraint firstAttribute="trailing" secondItem="h12-oS-kCs" secondAttribute="trailing" id="uOY-ry-Ir2"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Facebook" image="second" id="BkB-Rl-eAW"/>
+                    <tabBarItem key="tabBarItem" title="Tumbler" image="second" id="BkB-Rl-eAW"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="backButton" destination="bSN-Nz-mb1" id="kW3-y1-h95"/>

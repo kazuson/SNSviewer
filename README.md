@@ -1,1 +1,1 @@
-# Facebook,instagram,twitterを閲覧できるviewアプリ
+# tumbler,instagram,twitterをすぐに閲覧できるブラウザアプリ

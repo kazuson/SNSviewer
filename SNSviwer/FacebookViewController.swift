@@ -17,7 +17,9 @@ class FacebookViewController: UIViewController {
     @IBOutlet weak var stopButton: UIBarButtonItem!
     
     //facebookのurl　起動時にこのページを開く
-    let homeUrl = "https://www.facebook.com/"
+    //let homeUrl = "https://www.facebook.com/"
+    let homeUrl = "https://www.tumblr.com"
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
