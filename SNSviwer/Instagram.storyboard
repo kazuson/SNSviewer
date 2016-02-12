@@ -18,10 +18,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1K6-51-shc">
-                                <rect key="frame" x="0.0" y="507" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="511" width="600" height="40"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="WJs-aR-SKO"/>
+                                    <constraint firstAttribute="height" constant="40" id="8fn-hK-hHV"/>
                                 </constraints>
                                 <items>
                                     <barButtonItem image="button-back.png" id="pep-18-Epg">
@@ -43,7 +43,7 @@
                                 </items>
                             </toolbar>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CBB-24-VIL">
-                                <rect key="frame" x="0.0" y="20" width="600" height="487"/>
+                                <rect key="frame" x="0.0" y="20" width="600" height="491"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                             </webView>
@@ -51,13 +51,16 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="1K6-51-shc" secondAttribute="trailing" id="NzN-dC-DzO"/>
-                            <constraint firstItem="C1M-za-2BS" firstAttribute="top" secondItem="1K6-51-shc" secondAttribute="bottom" id="bRO-rU-5Hg"/>
+                            <constraint firstItem="C1M-za-2BS" firstAttribute="top" secondItem="1K6-51-shc" secondAttribute="bottom" id="0Bm-h8-FcL"/>
+                            <constraint firstItem="CBB-24-VIL" firstAttribute="leading" secondItem="utf-H3-zDd" secondAttribute="leading" id="8xG-BG-BiK"/>
+                            <constraint firstAttribute="trailing" secondItem="1K6-51-shc" secondAttribute="trailing" id="HsU-qh-1UT"/>
+                            <constraint firstItem="1K6-51-shc" firstAttribute="leading" secondItem="utf-H3-zDd" secondAttribute="leading" id="bAp-pY-bUB"/>
                             <constraint firstItem="CBB-24-VIL" firstAttribute="top" secondItem="giq-Gw-z5d" secondAttribute="bottom" id="cLJ-xk-8n5"/>
                             <constraint firstAttribute="trailing" secondItem="CBB-24-VIL" secondAttribute="trailing" id="hOW-xK-2tJ"/>
-                            <constraint firstItem="1K6-51-shc" firstAttribute="leading" secondItem="utf-H3-zDd" secondAttribute="leading" id="rzb-kd-MGk"/>
-                            <constraint firstItem="1K6-51-shc" firstAttribute="top" secondItem="CBB-24-VIL" secondAttribute="bottom" id="shR-48-zT6"/>
+                            <constraint firstItem="1K6-51-shc" firstAttribute="top" secondItem="CBB-24-VIL" secondAttribute="bottom" id="qV1-4b-JVM"/>
+                            <constraint firstAttribute="trailing" secondItem="CBB-24-VIL" secondAttribute="trailing" id="rpE-Pp-lpG"/>
                             <constraint firstItem="CBB-24-VIL" firstAttribute="leading" secondItem="utf-H3-zDd" secondAttribute="leading" id="t6s-ak-3y9"/>
+                            <constraint firstItem="CBB-24-VIL" firstAttribute="top" secondItem="giq-Gw-z5d" secondAttribute="bottom" id="wrc-lg-Tl7"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Instagram" image="second" id="htP-3s-tWU"/>
